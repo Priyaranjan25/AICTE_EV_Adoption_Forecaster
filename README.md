@@ -49,32 +49,32 @@ The system helps identify counties with faster adoption growth, assisting stakeh
 ---
 
 
----
+🚀 How to Run
+Step 1. Clone the Repository
 
-## 🚀 How to Run
+Open your terminal or command prompt and run:
 
-### **Step 1. Clone the Repository**
+git clone https://github.com/Priyaranjan25/AICTE_EV_Adoption_Forecaster.git
+cd AICTE_EV_Adoption_Forecaster
 
-```bash
-git clone https://github.com/yourusername/EV_Adoption_Forecasting.git
-cd EV_Adoption_Forecasting
-```
+Step 2. Create a Virtual Environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate      # On macOS/Linux  
+venv\Scripts\activate         # On Windows
 
-### **Step 2. Install Required Libraries**
+Step 3. Install Dependencies
 
-```bash
+Make sure you have Python 3.8+ installed. Then run:
+
 pip install -r requirements.txt
-```
 
-### **Step 3. Run the Streamlit App**
-
-```bash
+Step 4. Run the Streamlit Application
 streamlit run app.py
-```
 
-Then open the link displayed in the terminal (usually [http://localhost:8501](http://localhost:8501)) to explore the dashboard.
 
----
+This will start the web app locally. You’ll see a link in your terminal like:
+
+Local URL: http://localhost:8501
 
 ## 📊 Example Output
 
