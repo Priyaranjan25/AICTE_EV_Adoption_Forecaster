@@ -57,18 +57,14 @@ Open your terminal or command prompt and run:
 git clone https://github.com/Priyaranjan25/AICTE_EV_Adoption_Forecaster.git
 cd AICTE_EV_Adoption_Forecaster
 
-Step 2. Create a Virtual Environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate      # On macOS/Linux  
-venv\Scripts\activate         # On Windows
 
-Step 3. Install Dependencies
+Step 2. Install Dependencies
 
 Make sure you have Python 3.8+ installed. Then run:
 
 pip install -r requirements.txt
 
-Step 4. Run the Streamlit Application
+Step 3. Run the Streamlit Application
 streamlit run app.py
 
 
